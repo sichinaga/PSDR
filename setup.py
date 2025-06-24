@@ -5,13 +5,12 @@ from setuptools import setup
 install_requires = [
 		'numpy>=1.15', 
 		'redis',
-		'cvxpy<=1.0.31',
+		'cvxpy',
 		'cvxopt',
 		'tqdm',
 		'dask',
 		'distributed',
 		'sobol_seq',
-		'satyrn>=0.3.2',
 		'iterprinter',
 		'polyrat',
 	]

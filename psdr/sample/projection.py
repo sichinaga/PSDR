@@ -2,7 +2,7 @@ from __future__ import print_function
 
 import numpy as np
 from scipy.spatial.distance import pdist, squareform
-from satyrn import picosat
+# from satyrn import picosat
 
 try:
     from functools import lru_cache

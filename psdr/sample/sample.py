@@ -8,7 +8,7 @@ from scipy.spatial import Delaunay
 import cvxpy as cp
 import itertools
 
-from satyrn import picosat
+# from satyrn import picosat
 
 
 from ..geometry import voronoi_vertex_sample 

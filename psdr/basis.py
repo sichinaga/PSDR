@@ -66,7 +66,7 @@ def index_set(n, d):
 	I : ndarray
 		multi-indices ordered as columns
 	"""
-	I = np.zeros((1, d), dtype = np.int)
+	I = np.zeros((1, d), dtype = int)
 	for i in range(1, n+1):
 		II = _full_index_set(i, d)
 		I = np.vstack((I, II))
